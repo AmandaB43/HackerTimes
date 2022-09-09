@@ -1,1 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+@font-face {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abrilfatface/v19/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+}
+/*top of page*/
+
+.date{
+    /*border:1px solid purple;*/
+    margin:50px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    /*border: 5px solid red;*/
+    width: 700px;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+h1{
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+nav{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+nav ul li{
+    margin: 0;
+    list-style-type: none;
+    font-size: smaller;
+    padding: 1px;
+    display: inline-block;
+}
+/*middle of page*/
+
+body{
+    /*border: 3px solid blue;*/
+    font-family: 'Courier New', Courier, monospace;
+    margin:auto;
+    width: 700px;
+    border-radius: 10%;
+    background-color: rgb(242, 240, 240);
+}
+.newspaper-container{ 
+    background-color: white;
+    width: 700px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 5px 5px 5px rgb(225, 224, 224);
+}
+
+/*end of page*/
